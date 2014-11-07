@@ -81,3 +81,8 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 
 alias c=clear
 alias f=fg
+
+# For Hadoop
+export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64"
+export PATH="$JAVA_HOME/bin:/home/ihainan/Programs/hadoop-2.4.0/bin:$PATH"
+export HADOOP_CLASSPATH="$JAVA_HOME/lib/tools.jar"
