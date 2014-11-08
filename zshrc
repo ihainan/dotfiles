@@ -86,3 +86,7 @@ alias f=fg
 export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64"
 export PATH="$JAVA_HOME/bin:/home/ihainan/Programs/hadoop-2.4.0/bin:$PATH"
 export HADOOP_CLASSPATH="$JAVA_HOME/lib/tools.jar"
+
+# For Spark
+export SPARK_HOME="/home/ihainan/Programs/spark-1.1.0"
+export PATH="$SPARK_HOME/bin:$PATH"
