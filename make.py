@@ -13,8 +13,9 @@ def main():
 	files = "vimrc bashrc tmux.conf zshrc oh-my-zsh"
 
 	# 创建 old_dir 目录
-	print "Removing directory " + old_dir + "."
-	shutil.rmtree(old_dir)
+	if os.path.exists(old_dir):
+		print "Removing directory " + old_dir + "."
+		shutil.rmtree(old_dir)
 	print "Creating directory " + old_dir + "."
 	os.mkdir(old_dir)
 
