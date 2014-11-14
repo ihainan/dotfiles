@@ -1,4 +1,6 @@
 set nu
-set smartindent
 set paste
 set tabstop=4
+set smartindent
+
+set autoindent

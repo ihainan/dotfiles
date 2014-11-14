@@ -83,10 +83,19 @@ alias c=clear
 alias f=fg
 
 # For Hadoop
-export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64"
+export JAVA_HOME="/usr/lib/jvm/java-6-openjdk-amd64"
 export PATH="$JAVA_HOME/bin:/home/ihainan/Programs/hadoop-2.4.0/bin:$PATH"
 export HADOOP_CLASSPATH="$JAVA_HOME/lib/tools.jar"
 
 # For Spark
 export SPARK_HOME="/home/ihainan/Programs/spark-1.1.0"
 export PATH="$SPARK_HOME/bin:$PATH"
+
+# For maven
+export PATH="/home/ihainan/Programs/apache-maven-3.2.3/bin:$PATH"
+
+# For tmux
+tmux
+
+# For scala
+export PATH="/home/ihainan/Programs/scala-2.11.4/bin:$PATH"
